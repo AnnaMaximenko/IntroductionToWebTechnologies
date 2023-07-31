@@ -10,6 +10,7 @@ a {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
 }
+
 .top {
   background-color: rgba(34, 34, 34, 1);
   display: grid;
