@@ -18,6 +18,7 @@ a {
   padding-top: 18px;
   padding-bottom: 19px;
   align-items: end;
+  min-width: 1140px;
 }
 .unit__header {
   display: grid;
@@ -31,6 +32,7 @@ a {
   grid-template-columns: 570px 500px;
   gap: 64px;
   align-items: center;
+  min-width: 1140px;
 }
 
 .pink-rect__section-1 {
