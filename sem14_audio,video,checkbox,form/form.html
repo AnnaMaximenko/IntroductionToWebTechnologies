@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="style-check.css" />
+  </head>
+  <body>
+    <h1>Оставить заявку</h1>
+    <form action="#">
+      Имя
+      <input
+        autofocus
+        placeholder="name"
+        required
+        title="Обязательно заполни имя"
+        type="text"
+      />
+      <br />
+      Email
+      <input
+        required
+        placeholder="email"
+        title="Обязательно заполни email"
+        type="email"
+      />
+      <br />
+      Пароль
+      <input required title="Обязательно заполни password" type="password" />
+      <br />
+      Возраст
+      <input
+        required
+        title="Обязательно заполни возраст"
+        min="1"
+        type="number"
+      /><br />
+      Дату рождения
+      <input required title="Обязательно заполни email" type="date" /> <br />
+      Телефон
+      <input required title="Обязательно заполни телефон" type="tel" /><br />
+      <input min="1" max="10" type="range" step="1" /><br />
+      <button type="submit ">Оставить заявку</button>
+    </form>
+    <br />
+    <br />
+    <i class="fa-regular fa-square-check"></i>
+    <input id="check" type="checkbox" />
+    <label for="check">text</label>
+  </body>
+</html>

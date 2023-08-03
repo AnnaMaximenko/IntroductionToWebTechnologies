@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.audio {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video1 {
+  /* background-color: #e9bebe; */
+  height: 100vh;
+  width: 100vw;
+}
+.box-video {
+  height: 100vh;
+  position: relative;
+  /* ь относительно этого блока позиционируем */
+}
+.title-video {
+  position: absolute;
+  /* позиционируем этот блок */
+  z-index: 1;
+  background-color: #fff;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h2>Оставить заявку</h2>
+      <form action="#">
+        <!-- action="#"-куда отправлять данные -->
+        Ваше имя
+        <input autofocus title="Обязательно заполни" required type="text" />
+        <!-- required-обязательное поле ввода 
+        title="Обязательно заполни" - внутри подсказка при вводе некорректных данных
+      autofocus- при переходе на страницу сразу перейлем к этому полю+выделение-->
+        Email <input type="email" /><br />
+        Дата разработки проекта
+        <input type="date" />
+        Сколько проектов вы хотите создать <input min="1" type="number" />
+        <!-- value="3" значение уже будет встроено в поле
+        min="1" - значение больше 0 должно быть -->
+        Какие границы<input type="range" /><br />
+        <!-- Ползунок. например громкость  -->
+        <button type="submit ">Оставить заявку</button>
+        <!-- type="submit" - отправить данные -->
+      </form>
+    </section>
+    <section>
+      <h2>Музыкальный раздел сайта</h2>
+      <audio controls autoplay src="audio.mp3"></audio>
+      <!-- controls - добавляет отображение плеера и интерфейса
+      autoplay - автоматически запускает музыку -->
+    </section>
+    <section class="video-box">
+      <h2 class="video-heading">Видео-раздел сайта</h2>
+      <video class="video" controls preload="auto" src="video.mp4"></video>
+      <!-- preload="auto" какую часть видео нужно загружать -->
+    </section>
+  </body>
+</html>
