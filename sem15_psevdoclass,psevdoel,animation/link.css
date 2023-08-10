@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+}
+.menu_link:hover {
+  color: red;
+}
+.menu_link:active {
+  color: green;
+}
+.menu_list:first-child .menu_link {
+  text-decoration: underline;
+}
+.menu_list:last-child .menu_link {
+  font-weight: bold;
+}
+.menu_list:nth-child(3) .menu_link {
+  background-color: orange;
+}

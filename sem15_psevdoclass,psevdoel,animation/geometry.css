@@ -1,0 +1,33 @@
+.content {
+  margin-top: 200px;
+  margin-left: 200px;
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  width: 150px;
+  height: 62px;
+  /* border: 1px solid #000; */
+  background-color: green;
+}
+.item_1 {
+  /* scale: 1 1.6; */
+  transform: rotate(45deg);
+}
+.item_2 {
+  /* rotate: 90deg; */
+  transform: rotate(90deg);
+  /* scale: 1 1.6; */
+}
+.item_3 {
+  /* rotate: 45deg; */
+  transform: rotate(135deg);
+
+  /* scale: 1 1.6; */
+}
+.item_4 {
+  /* rotate: -45deg; */
+  /* transform: rotate(-45deg); */
+  /* scale: 1 1.6; */
+}
